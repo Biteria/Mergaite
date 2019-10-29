@@ -1,0 +1,99 @@
+body, body *{
+    margin-top:20;
+    padding: 0;
+    vertical-align: top;
+}
+
+body{
+    background-color:ghostwhite;
+    font-family: 'Courier New', Courier;
+    vertical-align: top;
+    padding: 0;
+}
+
+.navigation{
+    display: inline-block;
+    /* background-color: gold; */
+    text-decoration: none;
+    font-size: 8px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.logo-style{
+    display: inline-block;
+    /* float: left; */
+    width: 50%;
+    margin-top: 35px;
+    margin-left: 120px;
+}
+
+.logo-style > img{
+    width: 55px;
+    height: auto;
+}
+.nav-butts{
+    display: inline-block;
+    height:  50%;
+    text-align: right;
+    word-spacing: 10px;
+    padding-bottom: 40px;
+    vertical-align: 10px;
+}
+
+.nav-butts > a{
+    color: grey;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-butts > a:last-child{
+    color:grey;
+    font-size: 14px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    cursor: pointer;
+    padding: 1px 10px;
+}
+.container{
+    width: 50%;
+    display: inline-block;
+    margin-left: 100px;
+
+}
+.container > p{
+    word-spacing: 5px;
+    font-size: 26px;
+    color: gainsboro;
+    width:80%;
+    font-family:'Courier New', Courier, double space;
+    margin-left: 50px;
+    vertical-align: top;
+
+    
+}
+.container > h1{
+    font-size: 56px;
+    color: gainsboro;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.div3{
+    scale: 350px 250px;
+    display: inline-block;
+}
+
+.div3 > img{
+    width: 350px;
+    height: auto;
+
+}
+.main{
+    width: 1200px;
+    margin-left: calc(50% - 600px);
+}
